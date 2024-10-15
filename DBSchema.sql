@@ -46,36 +46,6 @@ CREATE TABLE day_wise (
     no_of_countries INT
 );
 
-CREATE TABLE full_grouped (
-    date DATE,
-    country VARCHAR(100),
-    confirmed INT,
-    deaths INT,
-    recovered INT,
-    active INT,
-    new_cases INT,
-    new_deaths INT,
-    new_recovered INT,
-    who_region VARCHAR(50)
-);
-
-CREATE TABLE usa_county_wise (
-    uid NUMERIC,
-    iso2 VARCHAR(5),
-    iso3 VARCHAR(5),
-    code3 NUMERIC,
-    fips NUMERIC,
-    admin2 VARCHAR(100),
-    province_state VARCHAR(100),
-    country_region VARCHAR(100),
-    lat DECIMAL(10, 6),
-    long DECIMAL(10, 6),
-    combined_key VARCHAR(200),
-    date DATE,
-    confirmed NUMERIC,
-    deaths NUMERIC
-);
-
 CREATE TABLE worldometer_data (
     country VARCHAR(100),
     continent VARCHAR(50),
@@ -98,6 +68,4 @@ CREATE TABLE worldometer_data (
 DROP TABLE IF EXISTS country_wise_latest;
 DROP TABLE IF EXISTS covid_19_clean_complete CASCADE;
 DROP TABLE IF EXISTS day_wise CASCADE;
-DROP TABLE IF EXISTS full_grouped CASCADE;
-DROP TABLE IF EXISTS usa_county_wise CASCADE;
 DROP TABLE IF EXISTS worldometer_data CASCADE;
