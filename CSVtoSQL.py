@@ -136,33 +136,6 @@ csv_tables = [
         'use_copy': False  # Using INSERT for this table
     },
     {
-        'file_path': 'Dataset/full_grouped.csv',
-        'table_name': 'full_grouped',
-        'column_names': [
-            'date', 'country', 'confirmed', 'deaths', 'recovered', 
-            'active', 'new_cases', 'new_deaths', 'new_recovered', 
-            'who_region'
-        ],
-        'numeric_columns': [
-            'confirmed', 'deaths', 'recovered', 'active', 'new_cases', 
-            'new_deaths', 'new_recovered'
-        ],
-        'use_copy': False
-    },
-    {
-        'file_path': 'Dataset/usa_county_wise.csv',
-        'table_name': 'usa_county_wise',
-        'column_names': [
-            'uid', 'iso2', 'iso3', 'code3', 'fips', 'admin2', 
-            'province_state', 'country_region', 'lat', 'long', 
-            'combined_key', 'date', 'confirmed', 'deaths'
-        ],
-        'numeric_columns': [
-            'uid', 'code3', 'fips', 'lat', 'long', 'confirmed', 'deaths'
-        ],
-        'use_copy': False
-    },
-    {
         'file_path': 'Dataset/worldometer_data.csv',
         'table_name': 'worldometer_data',
         'column_names': [
