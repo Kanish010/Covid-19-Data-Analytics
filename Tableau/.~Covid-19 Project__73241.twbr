@@ -6794,8 +6794,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1beod8x14d3g1j1d8xodx0gtuq40].[Longitude (generated)]' field-type='quantitative' max='33105923.295074895' min='21492550.83697135' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1beod8x14d3g1j1d8xodx0gtuq40].[Latitude (generated)]' field-type='quantitative' max='11681735.054541554' min='1334336.8014574083' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1beod8x14d3g1j1d8xodx0gtuq40].[Longitude (generated)]' field-type='quantitative' max='33264210.610556178' min='20936480.615628399' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1beod8x14d3g1j1d8xodx0gtuq40].[Latitude (generated)]' field-type='quantitative' max='14928540.386748577' min='-1650950.352566726' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='table'>
             <format attr='omit-on-special' field='[federated.1beod8x14d3g1j1d8xodx0gtuq40].[none:PROVINCE_STATE_NAME:nk]' value='false' />
@@ -6894,10 +6894,10 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97708' id='20' param='horz' type-v2='layout-flow' w='98698' x='651' y='1146'>
-            <zone h='97708' id='18' type-v2='layout-basic' w='98698' x='651' y='1146'>
-              <zone h='85963' id='8' param='vert' type-v2='layout-flow' w='38997' x='651' y='12891'>
-                <zone fixed-size='440' h='42981' id='9' is-fixed='true' name='Sheet 3' w='38997' x='651' y='12891'>
+          <zone h='98020' id='20' param='horz' type-v2='layout-flow' w='98698' x='651' y='990'>
+            <zone h='98020' id='18' type-v2='layout-basic' w='98698' x='651' y='990'>
+              <zone h='86239' id='8' param='vert' type-v2='layout-flow' w='38995' x='651' y='12771'>
+                <zone fixed-size='440' h='43119' id='9' is-fixed='true' name='Sheet 3' w='38995' x='651' y='12771'>
                   <layout-cache type-h='fixed' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6906,7 +6906,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='399' h='42982' id='17' is-fixed='true' name='Sheet 2' w='38997' x='651' y='55872'>
+                <zone fixed-size='399' h='43120' id='17' is-fixed='true' name='Sheet 2' w='38995' x='651' y='55890'>
                   <layout-cache type-h='fixed' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6916,8 +6916,8 @@
                   </zone-style>
                 </zone>
               </zone>
-              <zone h='85963' id='12' param='horz' type-v2='layout-flow' w='59701' x='39648' y='12891'>
-                <zone h='85963' id='13' name='Sheet 1' w='59701' x='39648' y='12891'>
+              <zone h='86239' id='12' param='horz' type-v2='layout-flow' w='59703' x='39646' y='12771'>
+                <zone h='86239' id='13' name='Sheet 1' w='59703' x='39646' y='12771'>
                   <layout-cache minheight='242' minwidth='202' type-h='scalable' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6927,7 +6927,7 @@
                   </zone-style>
                 </zone>
               </zone>
-              <zone forceUpdate='true' h='11745' id='14' type-v2='text' w='98698' x='651' y='1146'>
+              <zone forceUpdate='true' h='11781' id='14' type-v2='text' w='98698' x='651' y='990'>
                 <formatted-text>
                   <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='24'>Global Covid-19 Tracker </run>
                 </formatted-text>
@@ -6952,11 +6952,10 @@
           <button action='tabdoc:goto-sheet window-id=&quot;{E5F8AA0B-7F91-411E-9DE7-AA55C312D180}&quot;'>
             <button-visual-state>
               <image-path>/Users/kanishalluri/Desktop/Python/Github Projects/Covid-19-Data-Analytics/Images/USA.png</image-path>
-              <tooltip-text>Global Tracker</tooltip-text>
             </button-visual-state>
           </button>
         </zone>
-        <zone h='9615' id='22' type-v2='dashboard-object' w='9889' x='77765' y='1923'>
+        <zone h='9742' id='22' type-v2='dashboard-object' w='11147' x='77787' y='1862'>
           <button action='tabdoc:goto-sheet window-id=&quot;{BCD80469-EF79-4905-B06A-B2BEAB31972A}&quot;'>
             <button-visual-state>
               <image-path>/Users/kanishalluri/Desktop/Python/Github Projects/Covid-19-Data-Analytics/Images/Global.jpg</image-path>
@@ -7060,8 +7059,8 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='12253' id='3' param='vert' type-v2='layout-flow' w='99166' x='417' y='762'>
-            <zone fixed-size='1219' forceUpdate='true' h='12253' id='10' is-fixed='true' type-v2='text' w='99166' x='417' y='762'>
+          <zone h='12184' id='3' param='vert' type-v2='layout-flow' w='98698' x='651' y='990'>
+            <zone fixed-size='1219' forceUpdate='true' h='12184' id='10' is-fixed='true' type-v2='text' w='98698' x='651' y='990'>
               <formatted-text>
                 <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='24'>United States Covid-19 Tracker </run>
               </formatted-text>
@@ -7080,8 +7079,8 @@
               <format attr='background-color' value='#212121' />
             </zone-style>
           </zone>
-          <zone h='86223' id='6' param='horz' type-v2='layout-flow' w='99166' x='417' y='13015'>
-            <zone fixed-size='489' h='86223' id='13' is-fixed='true' name='Sheet 4' w='25886' x='417' y='13015'>
+          <zone h='85836' id='6' param='horz' type-v2='layout-flow' w='98698' x='651' y='13174'>
+            <zone fixed-size='393' h='85836' id='13' is-fixed='true' name='Sheet 4' w='32628' x='651' y='13174'>
               <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
               <zone-style>
                 <format attr='border-color' value='#000000' />
@@ -7090,7 +7089,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone fixed-size='701' h='86223' id='7' is-fixed='true' name='Sheet 5' w='36927' x='26303' y='13015'>
+            <zone fixed-size='620' h='85836' id='7' is-fixed='true' name='Sheet 5' w='51099' x='33279' y='13174'>
               <layout-cache minwidth='202' type-h='fixed' type-w='scalable' />
               <zone-style>
                 <format attr='border-color' value='#000000' />
@@ -7099,8 +7098,8 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone h='86223' id='8' name='Sheet 6' w='36353' x='63230' y='13015'>
-              <layout-cache minwidth='200' type-h='fixed' type-w='scalable' />
+            <zone h='85836' id='8' name='Sheet 6' w='14971' x='84378' y='13174'>
+              <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -7119,14 +7118,14 @@
         <zone h='10121' id='11' type-v2='dashboard-object' w='11176' x='77414' y='1923'>
           <button action='tabdoc:goto-sheet window-id=&quot;{BCD80469-EF79-4905-B06A-B2BEAB31972A}&quot;'>
             <button-visual-state>
-              <image-path>/Users/kanishalluri/Desktop/Global.jpg</image-path>
+              <image-path>/Users/kanishalluri/Desktop/Python/Github Projects/Covid-19-Data-Analytics/Images/Global.jpg</image-path>
             </button-visual-state>
           </button>
         </zone>
         <zone h='10223' id='12' type-v2='dashboard-object' w='10298' x='88999' y='2126'>
           <button action='tabdoc:goto-sheet window-id=&quot;{E5F8AA0B-7F91-411E-9DE7-AA55C312D180}&quot;'>
             <button-visual-state>
-              <image-path>/Users/kanishalluri/Desktop/USA.png</image-path>
+              <image-path>/Users/kanishalluri/Desktop/Python/Github Projects/Covid-19-Data-Analytics/Images/USA.png</image-path>
             </button-visual-state>
           </button>
         </zone>
@@ -7317,7 +7316,7 @@
         <viewpoint name='Sheet 2' />
         <viewpoint name='Sheet 3' />
       </viewpoints>
-      <active id='21' />
+      <active id='-1' />
       <simple-id uuid='{BCD80469-EF79-4905-B06A-B2BEAB31972A}' />
     </window>
     <window class='worksheet' name='Sheet 4'>
@@ -7409,7 +7408,7 @@
         </viewpoint>
         <viewpoint name='Sheet 6' />
       </viewpoints>
-      <active id='-1' />
+      <active id='11' />
       <simple-id uuid='{E5F8AA0B-7F91-411E-9DE7-AA55C312D180}' />
     </window>
   </windows>
