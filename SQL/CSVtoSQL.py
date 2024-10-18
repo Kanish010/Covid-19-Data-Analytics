@@ -17,10 +17,12 @@ db_port = os.getenv("DB_PORT")
 global_csv_file = 'Dataset/Global/GlobalDecember23.csv'
 usa_csv_file = 'Dataset/USA/USADecember23.csv'
 vaccination_csv_file = 'Dataset/Global/VaccinationGlobal.csv'
+usa_vaccination_csv_file = 'Dataset/USA/VaccinationUSA.csv'
 
 global_df = pd.read_csv(global_csv_file)
 usa_df = pd.read_csv(usa_csv_file)
 vaccination_df = pd.read_csv(vaccination_csv_file)
+usa_vaccination_df = pd.read_csv(usa_vaccination_csv_file)
 
 # Connect to the PostgreSQL database
 try:
@@ -80,6 +82,20 @@ try:
                 row['Province_State'], row['Country_Region'], row['Date'], row['Doses_admin'],
                 row['People_partially_vaccinated'], row['People_fully_vaccinated'], row['Report_Date_String'],
                 row['UID']
+            )
+        )
+
+    # Insert data into the usa_vaccination_data table
+    for index, row in usa_vaccination_df.iterrows():
+        cursor.execute(
+            """
+            INSERT INTO usa_vaccination_data (fips, province_state, country_region, date, latitude, longitude, 
+                                              combined_key, people_fully_vaccinated, people_partially_vaccinated)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
+            """,
+            (
+                row['FIPS'], row['Province_State'], row['Country_Region'], row['Date'], row['Lat'], row['Long_'],
+                row['Combined_Key'], row['People_Fully_Vaccinated'], row['People_Partially_Vaccinated']
             )
         )
 
