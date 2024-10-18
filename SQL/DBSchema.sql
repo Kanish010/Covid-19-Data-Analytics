@@ -47,6 +47,19 @@ CREATE TABLE vaccination_global (
     uid FLOAT
 );
 
+CREATE TABLE usa_vaccination_data (
+    fips FLOAT,
+    province_state VARCHAR(255),
+    country_region VARCHAR(255) NOT NULL,
+    date DATE,
+    latitude FLOAT,
+    longitude FLOAT,
+    combined_key VARCHAR(255),
+    people_fully_vaccinated INT,
+    people_partially_vaccinated FLOAT
+);
+
 TRUNCATE TABLE global_covid_data;
 TRUNCATE TABLE usa_covid_data;
 TRUNCATE TABLE vaccination_global;
+TRUNCATE TABLE usa_vaccination_data;
