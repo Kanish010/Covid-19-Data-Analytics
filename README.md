@@ -7,7 +7,7 @@ This project involves processing data, transforming it into a structured SQL dat
 2. **Database Schema**: SQL scripts to define the database structure and tables.
 3. **Pivot Tables & Charts**: Excel sheets that showcase data analysis using pivot tables and charts.
 4. **Covid-19 Dashboard**: A Tableau workbook for visualizing Covid-19 related data.
-5.	Clustering Models: Notebooks for clustering analysis on global and U.S.-specific COVID-19 datasets.
+5. **Clustering Models**: Notebooks for clustering analysis on global and U.S.-specific COVID-19 datasets.
 
 ## Files
 
@@ -15,8 +15,8 @@ This project involves processing data, transforming it into a structured SQL dat
 - `DBSchema.sql`: SQL script that defines the schema for the database, including tables, relationships, and constraints.
 - `Pivot Tables & Charts.xlsx`: An Excel file containing data analysis through pivot tables and visualizations.
 - `Covid-19 Dashboard.twb`: A Tableau workbook file designed to provide visual insights into Covid-19 data.
-- GlobalClustering.ipynb: A Jupyter notebook performing clustering on global COVID-19 data to analyze case and death trends.
-- USAClusterin.ipynb: A Jupyter notebook for U.S.-specific clustering and correlation analysis of COVID-19 cases and vaccination impact.
+- `GlobalClustering.ipynb`: A Jupyter notebook performing clustering on global COVID-19 data to analyze case and death trends.
+- `USAClusterin.ipynb`: A Jupyter notebook for U.S.-specific clustering and correlation analysis of COVID-19 cases and vaccination impact.
 - `requirements.txt`: A file listing all the Python dependencies required for the project.
 
 ## Prerequisites
