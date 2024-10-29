@@ -7,6 +7,7 @@ This project involves processing data, transforming it into a structured SQL dat
 2. **Database Schema**: SQL scripts to define the database structure and tables.
 3. **Pivot Tables & Charts**: Excel sheets that showcase data analysis using pivot tables and charts.
 4. **Covid-19 Dashboard**: A Tableau workbook for visualizing Covid-19 related data.
+5.	Clustering Models: Notebooks for clustering analysis on global and U.S.-specific COVID-19 datasets.
 
 ## Files
 
@@ -14,6 +15,8 @@ This project involves processing data, transforming it into a structured SQL dat
 - `DBSchema.sql`: SQL script that defines the schema for the database, including tables, relationships, and constraints.
 - `Pivot Tables & Charts.xlsx`: An Excel file containing data analysis through pivot tables and visualizations.
 - `Covid-19 Dashboard.twb`: A Tableau workbook file designed to provide visual insights into Covid-19 data.
+- GlobalClustering.ipynb: A Jupyter notebook performing clustering on global COVID-19 data to analyze case and death trends.
+- USAClusterin.ipynb: A Jupyter notebook for U.S.-specific clustering and correlation analysis of COVID-19 cases and vaccination impact.
 - `requirements.txt`: A file listing all the Python dependencies required for the project.
 
 ## Prerequisites
@@ -64,7 +67,11 @@ This project involves processing data, transforming it into a structured SQL dat
 2. Modify or refresh the pivot tables to analyze data as needed.
 3. Use the charts to visualize key insights.
 
-### 6. Visualizing Data with Tableau
+### 6. Running Clustering Notebooks
+1. Global Clustering: The GlobalClustering.ipynb notebook performs K-means clustering on global COVID-19 case and death data, highlighting clusters based on confirmed cases, deaths, incident rates, and fatality ratios.
+2. USA Clustering: The USAClusterin.ipynb notebook merges U.S.-specific COVID-19 and vaccination data, and provides correlation analysis between COVID-19 impact metrics and vaccination levels, displaying results in a heatmap. 
+
+### 7. Visualizing Data with Tableau
 1. Open `Covid-19 Dashboard.twb` using Tableau Desktop.
 2. Update the data source if required and explore the visual dashboards.
 
